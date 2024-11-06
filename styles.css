@@ -237,6 +237,8 @@ footer .social a:hover {
   #welcome-section {
       padding: 20px;
       height: auto;
+      background-size: cover; /* Ensure the background image covers the area */
+      background-position: center; /* Center the background image */
   }
 
   #welcome-section img {
@@ -299,6 +301,8 @@ footer .social a:hover {
   #welcome-section {
       padding: 40px;
       height: auto;
+      background-size: cover; /* Ensure the background image covers the area */
+      background-position: center; /* Center the background image */
   }
 
   #welcome-section img {
@@ -351,4 +355,3 @@ footer .social a:hover {
       padding: 12px;
   }
 }
-
