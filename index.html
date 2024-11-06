@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <title>Lucian Popa | portfolio</title>
+</head>
+
+<body>
+  <div id="navbar">
+    <a href="#welcome-section">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div id="welcome-section">
+    <img src="media/profile-pic.jpg" alt="profile picture of Lucian">
+    <h1>Hello!</h1>
+    <h3>I am Lucian,</h3>
+    <h3>I am on a path to become a fullstack Engineer</h3>
+    <p>With a solid foundation in IT quality assurance and a flair for innovative solutions, I'm excited to pivot my
+      career towards becoming a fullstack engineer. Over four years of honing my skills in testing methodologies and
+      problem-solving have equipped me to tackle complex projects with ease. Fluent in English and conversational in
+      German, French, and Spanish, I foster seamless communication across diverse teams. As I immerse myself in learning
+      React, Redux, Node.js, MongoDB, GraphQL and TypeScript, I'm eager to bring a creative, Agile mindset to my new
+      role, crafting exceptional user experiences from front-end to back-end development.</p>
+    <button onclick="document.location='#projects'">See My Work</button>
+  </div>
+  <div id="projects">
+    <a href="https://lucianpopa14.github.io/survey-form/" target="_blank">
+      <div id="project1" class="project-tile">
+        <h4 class="project-name">Survey Form</h4>
+        <img src="media/survey-form.png" alt="picture of the page containing a survey form">
+      </div>
+    </a>
+    <a href="https://lucianpopa14.github.io/tribute-page/" target="_blank">
+      <div id="project2" class="project-tile">
+        <h4 class="project-name">Tribute Page</h4>
+        <img src="media/tribute-page.png" alt="picuture of the tribute page">
+      </div>
+    </a>
+    <a href="https://lucianpopa14.github.io/technical-documentation/" target="_blank">
+      <div id="project3" class="project-tile">
+        <h4 class="project-name">Technical Documentation Page</h4>
+        <img src="media/technical-documentation.png" alt="picture of the technical documentation page">
+      </div>
+    </a>
+    <a href="https://lucianpopa14.github.io/product-landing/" target="_blank">
+      <div id="project4" class="project-tile">
+        <h4 class="project-name">Product Landing Page</h4>
+        <img src="media/product-landing.png" alt="picture of the landing page">
+      </div>
+    </a>
+  </div>
+
+  <div id="contact">
+    <h2>Let's Get in Touch!</h2>
+    <p>I'm excited to hear from you. Whether you have a question, want to collaborate, or just want to say hi, feel free to drop a message!</p>
+    <form action="" method="post">
+        <label for="name"><i class="fas fa-user"></i> Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name">
+
+        <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Your Email">
+
+        <label for="phone"><i class="fas fa-phone"></i> Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+
+        <label for="message"><i class="fas fa-comment-dots"></i> Message:</label>
+        <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
+
+        <button type="submit" >Submit</button>
+    </form>
+    <p id="thank-you-message" style="display:none;">Thank you for reaching out! I'll get back to you as soon as possible.</p>
+    <div class="social">
+        <a href="https://www.linkedin.com/in/luciipopa/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/lucianpopa14/" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+</div>
+
+</body>
+<footer>
+  <p>© 2024 Lucian Popa. All Rights Reserved.</p>
+  <div class="social">
+    <a href="https://www.linkedin.com/in/luciipopa/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/lucianpopa14/" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+</footer>
+
+</html>
